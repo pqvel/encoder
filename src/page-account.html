@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>АПТЕКА</title>
+    <link rel="stylesheet" href="./css/datepicker.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./lightGallery-master/dist/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="./lightGallery-master/dist/css/lg-thumbnail.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#31353b">
+    <meta name="msapplication-TileColor" content="#31353b">
+    <meta name="theme-color" content="#0478E3">
+</head>
+<body class="scroll">
+<header class="header shadow-block" id="header">
+    <div class="container">
+        <div class="header__row df df-ai-center df-jc-between">
+            <div class="header__left df df-ai-center">
+                <a href="/" class="header__logo df df-ai-stretch">
+                    <img src="./img/logo.svg" alt="Apteka" width="113" height="26">
+                </a>
+                <div class="header-menu-xxl">
+                    <svg class="header__icon-mob" width="24" height="24">
+                        <use xlink:href="/img/sprites.svg#icon-catalog"></use>
+                    </svg>
+                    <aside class="aside-menu shadow-block">
+    <div class="aside-menu__wrapper">
+        <div class="aside-menu__item aside-menu__item--favorite">
+            <div class="aside-menu__row">
+                <a href="#" class="aside-menu__link">В избранном <b>(5)</b></a>
+            </div>
+        </div>
+        <ul class="aside-menu__list">
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Медикаменты</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Продукция Coloplast</a>
+                </div>
+                <div class="sub-menu__wrapper">
+                    <ul class="sub-menu">
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Медицинская техника и приборы</a></div></li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Изделия медицинского назначения</a></div></li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Бандажи</a></div></li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Компрессионный трикотаж</a></div></li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Манипуляционные средства</a></div></li>
+                        <li class="aside-menu__item">
+                            <div class="aside-menu__row">
+                                <a href="catalog-level2.html" class="aside-menu__link">Ортопедические товары</a>
+                            </div>
+                            <div class="sub-menu__wrapper">
+                                <ul class="sub-menu">
+                                    <li class="aside-menu__item"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Гольфы компрессионные</a></div></li>
+                                    <li class="aside-menu__item"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Компрессионные колготы</a></div></li>
+                                    <li class="aside-menu__item"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Компрессионные чулки</a></div></li>
+                                    <li class="aside-menu__item"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Товары после липосакции</a></div></li>
+                                    <li class="aside-menu__item"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Антиэмболический трикотаж</a></div></li>
+                                </ul>
+                        <div class="aside-menu__item aside-menu__item--last"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Все показания</a></div></div>
+                            </div>
+                        </li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Уход за больными</a></div></li>
+                        <li class="aside-menu__item"><div class="aside-menu__row"><a href="catalog-level2.html" class="aside-menu__link">Планирование семьи</a></div></li>
+                    </ul>
+            <div class="aside-menu__item aside-menu__item--last"><div class="aside-menu__row"><a href="#" class="aside-menu__link">Все показания</a></div></div>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">БАД и витамины</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Медицинские товары</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Антибиотики</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Товары для косметологов</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Товары для мам и и детей</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Оптика</a>
+                </div>
+            </li>
+            <li class="aside-menu__item">
+                <div class="aside-menu__row">
+                    <a href="catalog-level1.html" class="aside-menu__link">Сексуальное здоровье</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</aside>
+                </div>
+            </div>
+            <div class="header__center">
+                <div class="header__location df df-ai-center p2" id="header-city">
+                    <svg width="18" height="18" class="icon">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    <span>Минск</span>
+                    <svg width="7" height="10" class="arrow">
+                        <use xlink:href="/img/sprites.svg#arrow-menu"></use>
+                    </svg>
+                </div>
+                <div id="search" class="header__search search-catalog">
+    <div class="search-catalog__block search-catalog--active df df-ai-stretch" id="search-input">
+        <input autocomplete="off" id="searchInput" class="search-catalog__input p2" type="search" maxlength="300" placeholder="Поиск в аптеках">
+        <button id="applySearchBtn" class="search-catalog__btn search-catalog__btn--search btn-main df df-ai-stretch">
+            <svg width="17" height="17">
+                <use xlink:href="/img/sprites.svg#icon-search"></use>
+            </svg>
+        </button>
+        <!--<div class="search-catalog__btn-wrap">
+            <button class="search-catalog__btn search-catalog__btn&#45;&#45;clear search-catalog__btn&#45;&#45;active" type="button">Очистить поиск</button>
+        </div>-->
+    </div>
+    <div class="autocomplete search-catalog__autocomplete" id="search-autocomplete">
+        <div class="autocomplete__content shadow-product">
+            <div class="autocomplete__scroll-container scroll">
+                <div class="autocomplete__mobile autocomplete-mobile df df-ai-center df-jc-between">
+                    <input autocomplete="off" id="searchInput-2" class="autocomplete-mobile__input p2" type="search" maxlength="300" placeholder="Поиск в аптеках города">
+                    <button class="autocomplete-mobile__btn" id="autocomplete-mobile-close">Отмена</button>
+                </div>
+                <div class="autocomplete__group">
+                    <div class="autocomplete__empty empty">
+                        <div class="empty__text p2"> Ничего не найдено, попробуйте изменить запрос</div>
+                        <ul class="autocomplete__list autocomplete__list--history">
+                            <li class="autocomplete__item p2 df df-ai-center">
+                                <svg width="20" height="20">
+                                    <use xlink:href="/img/sprites.svg#icon-clock"></use>
+                                </svg>
+                                Сальбутамол
+                                <svg width="14" height="15" class="autocomplete__icon-trash">
+                                    <use xlink:href="/img/sprites.svg#icon-trash"></use>
+                                </svg>
+                            </li>
+                            <li class="autocomplete__item p2 df df-ai-center">
+                                <svg width="20" height="20">
+                                    <use xlink:href="/img/sprites.svg#icon-clock"></use>
+                                </svg>
+                                Сабакомп
+                                <svg width="14" height="15" class="autocomplete__icon-trash">
+                                    <use xlink:href="/img/sprites.svg#icon-trash"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="autocomplete__group">
+                    <div class="autocomplete__group-title p2">Популярные запросы</div>
+                    <ul class="autocomplete__list autocomplete__list--popular">
+                        <li class="autocomplete__item">
+                            <a href="#" class="autocomplete__link p2">Тералив</a>
+                        </li>
+                        <li class="autocomplete__item">
+                            <a href="#" class="autocomplete__link p2">Биодерма</a>
+                        </li>
+                        <li class="autocomplete__item">
+                            <a href="#" class="autocomplete__link p2">Тералив</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="autocomplete__group">
+                    <div class="autocomplete__group-title p2">Категории</div>
+                    <ul class="autocomplete__list autocomplete__list--subject">
+                        <li class="autocomplete__item">
+                            <a href="#" class="autocomplete__link p2">Средства для иммунопрофилактики аллергии</a>
+                        </li>
+                        <li class="autocomplete__item">
+                            <a href="#" class="autocomplete__link p2">Вакцины, сыворотки, иммуноглобулины</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="autocomplete__group">
+                    <div class="autocomplete__group-title p2">Товары</div>
+                    <ul class="autocomplete__list autocomplete__list--product">
+                        <li class="autocomplete__item product-item df df-ai-center df-jc-between">
+                            <div class="product-item__left df df-ai-center">
+                                <img src="./img/mini-photo.png" alt="" width="32" height="32" class="product-item__img">
+                                <div class="product-item__left-content df df-column">
+                                    <span class="product-item__title p2">Набор из 2х уп. Максиган табл. №20 по спец.цене</span>
+                                    <span class="product-item__price product-item__price--mob df df-ai-center p3">Цена от:<span class="p1">28.55 р.</span></span>
+                                </div>
+                            </div>
+                            <div class="product-item__right df df-ai-center">
+                                <div class="product-item__right df df-ai-center">
+                                    <span class="product-item__price df df-ai-center p3">Цена от:<span class="p1">28.55 р.</span></span>
+                                </div>
+                                <button class="product-item__btn btn-main">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="/img/sprites.svg#icon-cart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="autocomplete__group">
+                    <ul class="autocomplete__list autocomplete__list--history">
+                        <li class="autocomplete__item p2 df df-ai-center">
+                            <svg width="20" height="20">
+                                <use xlink:href="/img/sprites.svg#icon-clock"></use>
+                            </svg>
+                            Сальбутамол
+                            <svg width="14" height="15" class="autocomplete__icon-trash">
+                                <use xlink:href="/img/sprites.svg#icon-trash"></use>
+                            </svg>
+                        </li>
+                        <li class="autocomplete__item p2 df df-ai-center">
+                            <svg width="20" height="20">
+                                <use xlink:href="/img/sprites.svg#icon-clock"></use>
+                            </svg>
+                            Сабакомп
+                            <svg width="14" height="15" class="autocomplete__icon-trash">
+                                <use xlink:href="/img/sprites.svg#icon-trash"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="autocomplete__all-result p3">Все результаты</a>
+            </div>
+        </div>
+    </div>
+    <div class="search-catalog__backdrop" id="search__backdrop"></div>
+</div>
+            </div>
+            <div class="header__right df df-ai-center">
+                <a href="#" class="header__profile df df-ai-stretch">
+                    <svg width="24" height="24">
+                        <use xlink:href="/img/sprites.svg#icon-user"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header__cart header-cart df df-ai-stretch">
+                    <svg width="24" height="24">
+                        <use xlink:href="/img/sprites.svg#icon-cart"></use>
+                    </svg>
+                    <span class="header-cart__value">5</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--<div class="header__sticky" id="header-sticky">
+        <div class="container">
+            <div class="header__sticky-wrapper df df-ai-center">
+                <div class="header__name p2">Librederm церафавит крем липидовосстанавливающий с церамидами и пребиотиком 75 мл</div>
+                <div class="header__nav df df-ai-center">
+                    <div class="header__nav-item p2 active" data-id="сharacteristic">Характеристики</div>
+                    <div class="header__nav-item p2" data-id="instructions">Инструкция</div>
+                    <div class="header__nav-item p2" data-id="review">Отзывы</div>
+                    <div class="header__nav-item p2" data-id="analog">Аналоги</div>
+                    <div class="header__nav-item p2" data-id="latest-watched">Вы недавно смотрели</div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="container">
+        <div class="header-menu__backdrop" id="menu-backdrop"></div>
+        <div class="header-mob">
+            <div class="header-mob__row df df-ai-center df-jc-between">
+                <button class="header-mob__btn df df-ai-center df-jc-center">
+                    <svg class="header-mob__btn-close" width="14" height="14">
+                        <use xlink:href="/img/sprites.svg?ver=1.0#icon-close"></use>
+                    </svg>
+                </button>
+                <a href="/" class="header-mob__logo df df-ai-stretch">
+                    <img src="./img/logo.svg" alt="Apteka" width="113" height="26">
+                </a>
+                <a href="#" class="header__cart header-cart df df-ai-stretch">
+                    <svg width="24" height="24">
+                        <use xlink:href="/img/sprites.svg#icon-cart"></use>
+                    </svg>
+                    <span class="header-cart__value">5</span>
+                </a>
+            </div>
+            <div class="header-mob__wrapper scroll">
+                <div class="header-mob__title header-mob__title--profile df df-ai-center p1">
+                    <svg width="24" height="24">
+                        <use xlink:href="/img/sprites.svg#icon-user"></use>
+                    </svg>
+                    Профиль
+                    <svg class="arrow" width="7" height="10">
+                        <use xlink:href="/img/sprites.svg#arrow-menu"></use>
+                    </svg>
+                </div>
+                <ul class="header-mob__menu">
+                    <li class="header-mob__li"><a href="#" class="header-mob__link">Личные данные</a></li>
+                    <li class="header-mob__li"><a href="#" class="header-mob__link">История покупок</a></li>
+                  <!-- <li class="header-mob__li"><a href="#" class="header-mob__link">Отзывы</a></li> -->
+                </ul>
+                <div class="header-mob__li header-mob__li--favorit"><a href="#" class="header-mob__link">В избранном <b>(5)</b></a></div>
+                <div class="header-mob__separator"></div>
+                <div class="header-mob__scroll">
+                    <div class="header-mob__title df df-ai-center p1">
+                        <svg class="header__icon-mob" width="24" height="24">
+                            <use xlink:href="/img/sprites.svg#icon-catalog"></use>
+                        </svg>
+                        Каталог
+                    </div>
+                    <ul class="header-mob__list">
+                        <li class="header-mob__item">
+                            <a href="#" class="header-mob__link">Медикаменты</a>
+                            <ul class="sub-menu">
+                                <li class="header-mob__item header-mob__item--prev">
+                                    <svg width="7" height="10">
+                                        <use xlink:href="/img/sprites.svg#arrow-menu"></use>
+                                    </svg>
+                                    <span>Назад</span>
+                                </li>
+                                <li class="header-mob__item">
+                                    <a href="#" class="header-mob__link">Уровень 2.1</a>
+                                    <ul class="sub-menu">
+                                        <li class="header-mob__item header-mob__item--prev">
+                                            <svg width="7" height="10">
+                                                <use xlink:href="/img/sprites.svg#arrow-menu"></use>
+                                            </svg>
+                                            <span>Назад</span>
+                                        </li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 3.1</a></li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 3.2</a></li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 3.3</a></li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 3.4</a></li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 3.5</a></li>
+                                        <li class="header-mob__item"><a href="#" class="header-mob__link header-mob__link--btn">Показать все</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 2.2</a></li>
+                                <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 2.3</a></li>
+                                <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 2.4</a></li>
+                                <li class="header-mob__item"><a href="#" class="header-mob__link">Уровень 2.5</a></li>
+                                <li class="header-mob__item"><a href="#" class="header-mob__link header-mob__link--btn">Показать все</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Продукция Coloplast</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">БАД и витамины</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Медицинские товары</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Антибиотики</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Товары для косметологов</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Товары для мам и детей</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Оптика</a></li>
+                        <li class="header-mob__item"><a href="#" class="header-mob__link">Сексуальное здоровье</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="grid-columns grid-columns_left m-20 m-footer">
+        <div class="account-menu-wrapper">
+            <aside class="account-menu shadow-block df df-column">
+    <div class="account-menu__title h3">Аккаунт</div>
+    <div class="account-menu__item account-menu__item--main active df df-ai-center">
+        <svg width="20" height="20">
+            <use xlink:href="/img/sprites.svg#icon-user"></use>
+        </svg>
+        <a href="page-account.html" class="account-menu__link">Личные данные</a>
+    </div>
+    <div class="account-menu__separator"></div>
+    <ul class="account-menu__list">
+        <li class="account-menu__item df df-ai-center">
+            <svg width="20" height="20">
+                <use xlink:href="/img/sprites.svg#icon-menu-account-2"></use>
+            </svg>
+            <a href="page-account-order.html" class="account-menu__link p1">История покупок</a>
+        </li>
+        <li class="account-menu__item df df-ai-center">
+            <svg width="20" height="20">
+                <use xlink:href="/img/sprites.svg#icon-menu-account-3"></use>
+            </svg>
+            <a href="page-account-favoritos.html" class="account-menu__link p1">Избранное</a>
+        </li>
+        <!--<li class="account-menu__item df df-ai-center">
+            <svg width="20" height="20">
+                <use xlink:href="/img/sprites.svg#icon-menu-account-4"></use>
+            </svg>
+            <a href="page-account-review.html" class="account-menu__link p1">Отзывы</a>
+        </li> -->
+    </ul>
+    <a href="index.html" class="account-menu__btn btn-default">Выйти из аккаунта</a>
+</aside>
+        </div>
+        <div class="content">
+            <section class="account m-20">
+                <h1 class="account__title h3">Личные данные</h1>
+                <div class="account__row df df-ai-center df-jc-between">
+                    <div class="account__text p3">Здесь вы можете отредактировать информацию о себе и добавить недостающую</div>
+                </div>
+                <div class="account-information">
+                    <div class="account-information__row df df-ai-stretch df-jc-between">
+                        <div class="account-information__item">
+                            <label for="name-input" class="account-information__label p3">Фамилия Имя Отчество</label>
+                            <input type="text" name="name" id="name-input" class="account-information__input">
+                        </div>
+                        <div class="account-information__item account-information__item--short account-information__item--date">
+                            <label for="date-input" class="account-information__label p3">Дата рождения</label>
+                            <input type="text" name="date" id="date-input" class="account-information__input date datepicker-input" placeholder="01.01.1900">
+                        </div>
+                        <div class="account-information__item account-information__item--short inner-sorter">
+                            <div class="account-information__label p3">Пол</div>
+                            <div class="catalog-sorting__select" data-state="">
+                                <div class="catalog-sorting__title df df-ai-center df-jc-between">
+                                    <div class="df df-ai-center">
+                                        <span>Не указано</span>
+                                    </div>
+                                    <svg width="9" height="12">
+                                        <use xlink:href="/img/sprites.svg#arrow-menu"></use>
+                                    </svg>
+                                </div>
+                                <div class="catalog-sorting__content">
+                                    <div class="catalog-sorting__row personal">
+                                        <input id="input-default" class="catalog-sorting__input" type="radio" name="sort" value="ASC" checked="">
+                                        <label for="input-default" tabindex="0" class="catalog-sorting__label">Мужчина</label>
+                                    </div>
+                                    <div class="catalog-sorting__row personal">
+                                        <input id="order-max" class="catalog-sorting__input" type="radio" name="sort" value="ASC">
+                                        <label for="order-max" tabindex="0" class="catalog-sorting__label">Женщина</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-information__row df df-ai-stretch df-jc-between">
+                        <div class="account-information__item">
+                            <label for="email-input" class="account-information__label p3">Электронная почта</label>
+                            <input type="text" name="email" id="email-input" class="account-information__input account-information__input--readonly" value="mail@mail.com">
+                            <svg width="18" height="18" class="account-information__icon">
+                                <use xlink:href="/img/sprites.svg#icon-edit"></use>
+                            </svg>
+                        </div>
+                        <div class="account-information__item">
+                            <label for="phone-input" class="account-information__label p3">Мобильный телефон</label>
+                            <input type="text" name="phone" id="phone-input" class="account-information__input account-information__input--readonly" value="+375 (44) 799-97-20">
+                            <svg width="18" height="18" class="account-information__icon">
+                                <use xlink:href="/img/sprites.svg#icon-edit"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <button class="account-information__btn btn-main">Сохранить</button>
+                </div>
+                </section>
+                <section class="account m-20">
+                <h2 class="account__title h3">Изменить пароль</h2>
+                <div class="account-password">
+                    <div class="account-password__row df df-ai-stretch df-jc-between">
+                        <div class="account-password__item">
+                            <label for="old-password" class="account-password__label p3">Страрый пароль</label>
+                            <input type="password" name="email" id="old-password" class="account-password__input">
+                            <svg class="account-password__icon-password password-btn-close" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-close"></use>
+                            </svg>
+                            <svg class="account-password__icon-password hidden password-btn-open" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-open"></use>
+                            </svg>
+                        </div>
+                        <div class="account-password__item">
+                            <label for="new-password" class="account-password__label p3">Новый пароль</label>
+                            <input type="password" name="email" id="new-password" class="account-password__input">
+                            <svg class="account-password__icon-password password-btn-close" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-close"></use>
+                            </svg>
+                            <svg class="account-password__icon-password hidden password-btn-open" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-open"></use>
+                            </svg>
+                        </div>
+                        <div class="account-password__item">
+                            <label for="confirm-password" class="account-password__label p3">Подтвердить пароль</label>
+                            <input type="password" name="email" id="confirm-password" class="account-password__input">
+                            <svg class="account-password__icon-password password-btn-close" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-close"></use>
+                            </svg>
+                            <svg class="account-password__icon-password hidden password-btn-open" width="18" height="18">
+                                <use xlink:href="/img/sprites.svg#icon-password-open"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <button class="account-password__btn btn-main">Сохранить</button>
+                </div>
+                </section>
+                <section class="account">
+                <h2 class="account__title h3">Управление аккаунтом</h2>
+                <div class="account__row df df-ai-center df-jc-between">
+                    <div class="account__text p3">Вы с нами с 11 Ноября 2021 года</div>
+                    <button class="account__btn-remove">Удалить аккаунт</button>
+                </div>
+                <!-- <a href="#" class="account__btn btn-default">Выйти из аккаунта</a> -->
+            </section>
+        </div>
+    </div>
+</div>
+<footer class="footer shadow-block" id="footer">
+    <div class="container">
+        <ul class="footer-menu">
+            <li class="footer-menu__item">
+                <span class="footer-menu__title">О компании</span>
+                <ul class="menu-sub">
+                    <li class="menu-sub__item"><a href="page-about.html" class="menu-sub__link p2">О сервисе «Apteka.KZ»</a></li>
+                    <li class="menu-sub__item"><a href="page-contact.html" class="menu-sub__link p2">Контактная информация</a></li>
+                </ul>
+            </li>
+            <li class="footer-menu__item">
+                <span class="footer-menu__title">Помощь</span>
+                <ul class="menu-sub">
+                    <li class="menu-sub__item"><a href="page-how-to-make.html" class="menu-sub__link p2">Как сделать заказ</a></li>
+                    <li class="menu-sub__item"><a href="brand-profile.html" class="menu-sub__link p2">Бренды</a></li>
+                </ul>
+            </li>
+            <li class="footer-menu__item">
+                <span class="footer-menu__title">Партнерам</span>
+                <ul class="menu-sub">
+                    <li class="menu-sub__item"><a href="page-commercial.html" class="menu-sub__link p2">Реклама</a></li>
+                    <li class="menu-sub__item"><a href="page-add-pharmacy.html" class="menu-sub__link p2">Подключить аптеку</a></li>
+                </ul>
+            </li>
+            <li class="footer-menu__item">
+                <span class="footer-menu__title">Юридическая информация</span>
+                <ul class="menu-sub">
+                    <li class="menu-sub__item"><a href="#" class="menu-sub__link p2">Политика по обработке персональных данных</a></li>
+                    <li class="menu-sub__item"><a href="#" class="menu-sub__link p2">Пользовательское соглашение</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-copyright__wrapper">
+        <div class="container">
+            <div class="footer-copyright df df-ai-end df-jc-between df-row df-wrap">
+                <div class="footer__info df df-column">
+                    <a href="/" class="footer__logo df df-ai-stretch">
+                        <img src="./img/logo.svg" alt="Apteka" width="113" height="26">
+                    </a>
+                    <div class="footer__text p3">2022 Apteka.KZ</div>
+                    <div class="footer__text p3">Адрес: 141400, ОБЛАСТЬ Минская область, Город Минск, ШОССЕ Минское, дом 42, цокольный этаж, помещение I, комната 2;</div>
+                </div>
+                <div class="footer__text footer__text--last p3">Любая информация, размещенная на сайте, не является публичной офертой</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="fade" id="fade"></div>
+<div class="city-popup" id="city-popup">
+    <svg class="city-popup__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="city-popup__title h3">Выберете город</div>
+    <div class="city-popup__text p1">От выбранного региона зависят цены, наличие товара и отображение аптек</div>
+    <div class="city-popup__wrapper">
+        <div class="city-popup__search">
+            <label class="city-popup__label">
+                <input type="text" class="city-popup__input p2" autocomplete="off" placeholder="Выберете город">
+            </label>
+        </div>
+        <div class="city-popup__scroll scroll">
+            <ul class="city-popup__list">
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="минск">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Минск
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="могилев">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Могилев
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="гомель">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Гомель
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="витебск">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Витебск
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="гродно">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Гродно
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="брест">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Брест
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="барановичи">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Барановичи
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="бобруйск">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Бобруйск
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="борисов">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Борисов
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="пинск">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Пинск
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="орша">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Орша
+                </li>
+                <li class="city-popup__list-item p1 df df-ai-center" data-value="солигорск">
+                    <svg width="18" height="18">
+                        <use xlink:href="/img/sprites.svg#icon-location"></use>
+                    </svg>
+                    Солигорск
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="fade" id="fade-form"></div>
+<div class="popup" id="login-popup">
+    <svg class="popup__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup__title h1">Вход</div>
+    <form class="popup__form popup-form login-form" method="POST">
+        <div class="popup-form__wrapper">
+            <div class="popup-form__item">
+                <label for="login-email" class="popup-form__label p3">Электронная почта*</label>
+                <input type="text" name="email" id="login-email" placeholder="Email" class="popup-form__input input-email">
+                <span class="popup-form__error-text p3">Неправильный формат электронной почты</span>
+            </div>
+            <div class="popup-form__item">
+                <label for="login-password" class="popup-form__label p3">Пароль*</label>
+                <a href="page-forget-password.html" class="popup-form__forget">Забыли пароль</a>
+                <input type="password" name="email" id="login-password" class="popup-form__input input-password">
+                <!--<span class="popup-form__error-text p3">Неправильный пароль</span>-->
+                <svg class="popup-form__icon-password" id="password-btn-close" width="18" height="18">
+                    <use xlink:href="/img/sprites.svg#icon-password-close"></use>
+                </svg>
+                <svg class="popup-form__icon-password hidden" id="password-btn-open" width="18" height="18">
+                    <use xlink:href="/img/sprites.svg#icon-password-open"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="popup-form__accept">Нажимая «Продолжить», вы соглашаетесь с <a href="#" target="_blank">политикой обработки персональных данных</a></div>
+        <button class="popup-form__btn btn-main" disabled>Войти</button>
+    </form>
+    <div class="popup__account"><span class="p3">Уже есть аккаунт</span></div>
+    <a href="page-registration.html" class="popup__btn btn-main">Регистрация</a>
+</div>
+<div class="popup" id="registration-popup">
+    <svg class="popup__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup__title h1">Регистрация</div>
+    <form class="popup__form popup-form registration-form" method="POST">
+        <div class="popup-form__wrapper">
+            <div class="popup-form__item">
+                <label for="registration-email" class="popup-form__label p3">Электронная почта*</label>
+                <input type="text" name="email" id="registration-email" placeholder="Email" class="popup-form__input input-email">
+                <span class="popup-form__error-text p3">Неправильный формат электронной почты</span>
+            </div>
+        </div>
+        <div class="popup-form__accept">Нажимая «Продолжить», вы соглашаетесь с <a href="#" target="_blank">политикой обработки персональных данных</a></div>
+        <button class="popup-form__btn btn-main" disabled>Продолжить</button>
+    </form>
+    <div class="popup__account"><span class="p3">Уже есть аккаунт</span></div>
+    <a href="page-login.html" class="popup__btn btn-main">Войти</a>
+</div>
+<div class="popup" id="password-forget-popup">
+    <svg class="popup__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup__title h1">Сброс пароля</div>
+    <form class="popup__form popup-form password-forget-form" method="POST">
+        <div class="popup-form__wrapper">
+            <div class="popup-form__item">
+                <label for="password-forget-email" class="popup-form__label p3">Электронная почта*</label>
+                <input type="text" name="email" id="password-forget-email" placeholder="Email" class="popup-form__input input-email">
+                <span class="popup-form__error-text p3">Неправильный формат электронной почты</span>
+            </div>
+        </div>
+        <div class="popup-form__accept">Нажимая «Продолжить», вы соглашаетесь с <a href="#" target="_blank">политикой обработки персональных данных</a></div>
+        <button class="popup-form__btn btn-main" disabled>Продолжить</button>
+    </form>
+</div>
+
+<div class="popup-success" id="registration-success">
+    <svg class="popup-success__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup-success__icon df df-ai-center df-jc-center">
+        <svg class="icon" width="26" height="26">
+            <use xlink:href="/img/sprites.svg#icon-check"></use>
+        </svg>
+    </div>
+    <div class="popup-success__title h1">Вы зарегестрированы</div>
+    <div class="popup-success__text p3">Письмо с паролем отправлено на вашу почту, если письма нет — проверьте папку «Спам».</div>
+    <button class="popup-success__btn btn-main">Продолжить покупки</button>
+</div>
+<div class="popup-success" id="password-forget-success">
+    <svg class="popup-success__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup-success__icon df df-ai-center df-jc-center">
+        <svg class="icon" width="26" height="26">
+            <use xlink:href="/img/sprites.svg#icon-check"></use>
+        </svg>
+    </div>
+    <div class="popup-success__title h1">Пароль успешно изменен</div>
+    <div class="popup-success__text p3">Письмо с паролем отправлено на вашу почту, если письма нет — проверьте папку «Спам».</div>
+    <button class="popup-success__btn btn-main">Продолжить покупки</button>
+</div>
+
+<div class="add-product-cart-mob shadow-block" id="add-product-cart">
+    <div class="add-product-cart-mob__group df df-ai-stretch df-jc-between">
+        <!--<div class="add-product-cart-mob__price df df-column df-jc-between">
+            <span class="name">Цена от:</span>
+            <span class="value h4">28.55 р.</span>
+        </div>-->
+        <button class="add-product-cart-mob__btn btn-main add-product-btn"><!-- disable added -->
+            <svg width="22" height="22">
+                <use xlink:href="/img/sprites.svg#icon-cart"></use>
+            </svg>
+            В корзину
+        </button>
+        <button class="add-product-cart-mob__btn btn-main second">Проверить наличие</button>
+    </div>
+    <div class="add-product-cart-mob__text p3">Оплата наличными или картой при получении</div>
+</div>
+<div class="container cookie-notice" id="cookie-notice">
+    <div class="cookie-notice__wrapper df df-ai-center df-jc-between">
+        <div class="cookie-notice__text p2">Мы используем <b>файлы cookie</b>, чтобы улучшить сайт для вас</div>
+        <button class="cookie-notice__btn p3 bold" id="cookie-notice-btn">Согласен</button>
+    </div>
+</div>
+
+<div class="popup-review" id="popup-review">
+    <svg class="popup-review__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <form class="popup-review-form" method="post" id="popup-review-form">
+        <div class="popup-review-form__rating m-20">
+            <div class="popup-review-form__title-mark h3">Оценка:</div>
+            <div class="stars">
+                <input name="rating" id="rating-5" value="5" type="radio">
+                <label for="rating-5">
+                    <svg width="16" height="15">
+                        <use xlink:href="./img/sprites.svg#icon-star"></use>
+                    </svg>
+                </label>
+                <input name="rating" id="rating-4" value="4" type="radio">
+                <label for="rating-4">
+                    <svg width="16" height="15">
+                        <use xlink:href="./img/sprites.svg#icon-star"></use>
+                    </svg>
+                </label>
+                <input name="rating" id="rating-3" value="3" type="radio">
+                <label for="rating-3">
+                    <svg width="16" height="15">
+                        <use xlink:href="./img/sprites.svg#icon-star"></use>
+                    </svg>
+                </label>
+                <input name="rating" id="rating-2" value="2" type="radio">
+                <label for="rating-2">
+                    <svg width="16" height="15">
+                        <use xlink:href="./img/sprites.svg#icon-star"></use>
+                    </svg>
+                </label>
+                <input name="rating" id="rating-1" value="1" type="radio">
+                <label for="rating-1">
+                    <svg width="16" height="15">
+                        <use xlink:href="./img/sprites.svg#icon-star"></use>
+                    </svg>
+                </label>
+            </div>
+        </div>
+        <div class="popup-review-form__message m-20 clear">
+            <div class="popup-review-form__row df df-ai-center df-jc-between">
+                <label for="review-message" class="popup-review-form__label h6">Расскажите о товаре</label>
+                <div class="symbols p3 df df-ai-center">
+                    <span class="now">0</span>
+                    <span class="all">&nbsp;/ 1000</span>
+                </div>
+            </div>
+            <textarea class="popup-review-form__textarea" placeholder="Оставьте комментарий.." maxlength="1000" id="review-message"></textarea>
+        </div>
+        <div class="popup-review-form__files m-20">
+            <div class="popup-review-form__row">
+                <label for="review-message" class="popup-review-form__label h6">Загрузите до 5 фотографий</label>
+            </div>
+            <div class="drag-area df df-ai-center">
+                <div class="drag-area__select df df-ai-center df-jc-center" role="button">
+                    <svg width="36" height="36">
+                        <use xlink:href="/img/sprites.svg#icon-photo"></use>
+                    </svg>
+                </div>
+                <!-- START IMAGE PREVIEW CONTAINER -->
+                <div class="df df-ai-stretch" id="container"></div>
+                <!-- END IMAGE PREVIEW CONTAINER -->
+                <div class="drag-area__info">
+                    <div class="title p1">Нажмите на область с иконкой</div>
+                    <div class="text p3">Фото до 10 МБ. Формат JPG, JPEG, PNG, BMP, GIF</div>
+                </div>
+                <input name="file" type="file" class="file" multiple />
+            </div>
+        </div>
+        <div class="popup-review-form__bottom m-20 df df-ai-center">
+            <button class="popup-review-form__btn btn-main">Отправить</button>
+            <div class="popup-review-form__text p3">Размещая отзыв на сайте, Вы даёте согласие на использование отзыва на сторонних ресурсах</div>
+        </div>
+    </form>
+</div>
+<div class="popup-review-success" id="popup-review-success">
+    <div class="popup-review-success__title h4">Спасибо за ваш отзыв!</div>
+    <div class="popup-review-success__text p1">Мы его разместим после того, как он пройдет модерацию.</div>
+    <button class="popup-review-success__btn btn-main">Закрыть</button>
+</div>
+<div class="popup" id="complain-popup">
+    <svg class="popup__close" width="14" height="14">
+        <use xlink:href="/img/sprites.svg#icon-close"></use>
+    </svg>
+    <div class="popup-complain">
+        <div class="popup-complain__title h3">Почему Вы хотите пожаловаться на отзыв?</div>
+        <div class="popup-complain__list">
+            <div class="popup-complain__item">
+                <input id="input-complain-1" class="popup-complain__input" type="radio" name="complain" value="1">
+                <label for="input-complain-1" tabindex="0" class="popup-complain__label">Отзыв содержит нецензурную, бранную лексику</label>
+            </div>
+            <div class="pop-up-complain__item">
+                <input id="input-complain-2" class="popup-complain__input" type="radio" name="complain" value="2">
+                <label for="input-complain-2" tabindex="0" class="popup-complain__label">Заказной, фиктивный</label>
+            </div>
+            <div class="pop-up-complain__item">
+                <input id="input-complain-3" class="popup-complain__input" type="radio" name="complain" value="3">
+                <label for="input-complain-3" tabindex="0" class="popup-complain__label">Спам</label>
+            </div>
+            <div class="pop-up-complain__item">
+                <input id="input-complain-4" class="popup-complain__input" type="radio" name="complain" value="4">
+                <label for="input-complain-4" tabindex="0" class="popup-complain__label">Некорректное фото, видео</label>
+            </div>
+        </div>
+        <button class="popup-complain__btn btn-main">Сообщить</button>
+    </div>
+</div>
+<div class="complain-popup-success" id="complain-popup-success">
+    <div class="complain-popup-success__title p1">Мы учли Вашу жалобу. Спасибо!</div>
+    <button class="complain-popup-success__btn btn-main">Закрыть</button>
+</div>
+<div class="sizes-popup-error" id="sizes-popup-error">
+    <div class="sizes-popup-error__title p1">Размер файла не должен превышать 10 Mb.</div>
+    <button class="sizes-popup-error__btn btn-main">Закрыть</button>
+</div>
+
+<div class="popup-add-cart df df-ai-center" id="popup-add-cart">
+    <div class="popup-add-cart__img df df-ai-stretch">
+        <img src="./img/prodcut-img.png" width="50" height="50">
+    </div>
+    <div class="popup-add-cart__text p1">Товар добавлен в корзину</div>
+    <a href="page-order.html" class="popup-add-cart__btn btn-main">Перейти</a>
+</div>
+<script defer src="./js/imask.min.js"></script>
+<script defer src="./js/swiper-bundle.min.js"></script>
+<script defer src="./lightGallery-master/dist/lightgallery.min.js"></script>
+<script defer src="./lightGallery-master/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script defer src="./js/index.js"></script>
+
+<script src="./js/datepicker-full.min.js"></script>
+<script src="./js/ru.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        let accountInfoItemDate = document.querySelector("#date-input") //.account-information__item--date
+        if (accountInfoItemDate !== null) {
+            const datepicker = new Datepicker(accountInfoItemDate, {
+                weekStart: 1,
+                language: 'ru',
+                format: 'dd.mm.yyyy',
+                type: 'input',
+            });
+            datepicker.input
+        }
+    })
+</script>
+</body>
+</html>
